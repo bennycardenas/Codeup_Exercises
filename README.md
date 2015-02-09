@@ -6,4 +6,4 @@ This is my personalrepository of exercises I have complete
 - HTML
 - CSS
 - Bootstrap
-- Java
+- JavaScript
