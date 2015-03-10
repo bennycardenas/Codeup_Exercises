@@ -1,37 +1,68 @@
 <?php 
 
-$a = 5;
-$b = 10;
-$c = '10';
+$a = 6;
+$b = 11;
+$c = '11';
 
-if($a < $b) {
+// if($a < $b) {
+// 	echo "$a is less than $b\n";
+// }
+
+// if ($b>$a) {
+// 	echo "$b is greater than $a\n";
+// }
+
+// CHANGED ABOVE 2 STATEMENTS TO if/else STATEMENT
+if($a < $b){
 	echo "$a is less than $b\n";
-}
-
-if ($b>$a) {
+} else {
 	echo "$b is greater than $a\n";
 }
 
+// if($b >= $c) {
+// 	echo "$b is greater than or equal to $c\n";
+// }
+
+// if ($b <= $c) {
+// 	echo "$b is less than or equal to $c\n";
+// }
+
+// CHANGED ABOVE 2 STATEMENTS TO if/else STATEMENT
 if($b >= $c) {
 	echo "$b is greater than or equal to $c\n";
-}
-
-if ($b <= $c) {
+} else {
 	echo "$b is less than or equal to $c\n";
 }
 
+
+// 
+
+// if ($b === $c){
+// 	echo "$b is identical to $c\n";
+// } elseif($b == $c){
+// 	echo "$b is equal to $c\n";
+// } elseif ($b !== $c) {
+// 	echo "$b is not identical to $c\n";
+// } elseif ($b != $c) {
+// 	echo "$b is not equal to $c\n";
+// }
+
+
+
+// CHANGED ABOVE 4 STATEMENTS TO FOLLOWING elseif STATEMENT
+
+
+
+
 if($b == $c){
 	echo "$b is equal to $c\n";
-}
-
-if ($b === $c){
+} elseif ($b === $c){
 	echo "$b is identical to $c\n";
-}
-
-if ($b != $c) {
+} elseif ($b != $c) {
 	echo "$b is not equal to $c\n";
-}
-
-if ($b !== $c) {
+} else ($b !== $c) {
 	echo "$b is not identical to $c\n";
 }
+
+
+
