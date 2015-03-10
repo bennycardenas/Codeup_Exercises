@@ -19,7 +19,9 @@
 // 	$start -= 5;
 // } while ($start >= -10);
 
-
+// Create a do-while loop that starts at 2, and displays the
+//  result $a * $a on each line while $a is less than 1,000,000.
+//   Output should equal:
 $start = 2;
 do {
 	echo $start . PHP_EOL;
