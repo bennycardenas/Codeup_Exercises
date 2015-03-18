@@ -1,0 +1,4 @@
+2015-03-18 10:02:04 pm  [Info] This is an info message.
+2015-03-18 10:02:04 pm  [Error] Incorrect password.
+2015-03-18 05:05:08 pm  [Info] This is an info message.
+2015-03-18 05:05:08 pm  [Error] Incorrect password.
