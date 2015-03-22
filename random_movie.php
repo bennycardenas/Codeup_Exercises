@@ -14,7 +14,6 @@ function readLines($inputFile)
 	//fread
 	$filename = $outputFile;
 	$handle = fopen($filename, 'w');
-
 	fclose($handle);
 	return
 }
