@@ -1,9 +1,14 @@
 # Codeup Examples
 
-This is my personalrepository of exercises I have complete
+This is my repository of exercises I have worked on while at CodeUp
 
-## Exercises
+## Some subjects covered in Exercises
 - HTML
 - CSS
 - Bootstrap
 - JavaScript
+- jQuery
+- AJAX
+- API's
+- JSON
+- PHP
