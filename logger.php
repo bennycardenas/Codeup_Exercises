@@ -1,4 +1,5 @@
 <?php
+
 // $newCities = ['Changhua County, Taiwan', 'Hamina, Finland', 'St Ghislain, Belgium', 'Dublin, Ireland'];
 
 // $filename = 'txt/cities.txt';
