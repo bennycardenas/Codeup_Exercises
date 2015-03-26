@@ -1,0 +1,2 @@
+Info: Did this log entry get sent after all?
+Error: Oopsy this is an error!
