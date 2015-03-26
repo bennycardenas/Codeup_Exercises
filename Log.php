@@ -5,17 +5,13 @@ class Log
 {
     public $filename;
     public $handle;
-    
-    public static
-
-
 
     public function __construct($prefix='log')
     {
-        $timeZone = date_default_timezone_set("America/Chicago");
+        date_default_timezone_set("America/Chicago");
         $date = date('Y-m-d');
-        $time = date('h:i:s a ');
-        $this->filename = "$prefix-{$date}-{$time}.txt";
+        // $time = date('h:i:s a ');
+        $this->filename = "{$prefix}-{$date}.txt";
         $this->handle = fopen($this->filename, 'a'); 
     }
 
