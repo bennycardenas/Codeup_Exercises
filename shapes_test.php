@@ -3,8 +3,6 @@
 require_once 'rectangle.php';
 require_once 'square.php';
 
-
-
     $rectangle = new Rectangle(10, 20);
     // $area = $recatanlge->area();
     // echo "The are of this shape is $area" . PHP_EOL;
