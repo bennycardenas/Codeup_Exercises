@@ -1,6 +1,6 @@
-<? php
+<?php
 
-require_once 'rectangle.php'
+require_once 'rectangle.php';
 
 
 class Square extends Rectangle
